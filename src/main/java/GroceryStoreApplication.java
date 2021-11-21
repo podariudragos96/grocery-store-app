@@ -1,8 +1,6 @@
 import model.Product;
 import service.ReceiptService;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class GroceryStoreApplication {
@@ -11,7 +9,7 @@ public class GroceryStoreApplication {
 
         ReceiptService receiptService = new ReceiptService();
 
-        System.out.println("Hello, world");
+        System.out.println("Hello, welcome to Charlene's Coffee Corner!");
         Scanner scanner = new Scanner(System.in);
 
         boolean exit = false;
